@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Usage from "./components/Usage";
 import ExampleOutput from "./components/ExampleOutput";
-import Contributing from "./components/contributing";
+// import Contributing from "./components/contributing";
 import Contributors from "./components/contributors";
 import Footer from "./components/Footer";
 

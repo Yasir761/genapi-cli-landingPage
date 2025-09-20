@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   const navLinks = [
@@ -9,9 +10,12 @@ export default function Navbar() {
   return (
     <header className="flex items-center justify-between px-6 md:px-12 py-4 bg-gray-900/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-800 shadow-md">
       {/* Logo */}
-      <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-orange-400 via-pink-500 to-red-500 bg-clip-text text-transparent drop-shadow-lg">
-        GenAPI
-      </h1>
+      <a href="#" className="flex items-center gap-3">
+        <img src={logo} alt="GenAPI Logo" className="w-10 h-10 md:w-12 md:h-12" />
+        {/* <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-orange-400 via-pink-500 to-red-500 bg-clip-text text-transparent drop-shadow-lg">
+          GenAPI
+        </h1> */}
+      </a>
 
       {/* Navigation */}
       <nav className="flex gap-6 md:gap-10 text-sm md:text-base font-medium">

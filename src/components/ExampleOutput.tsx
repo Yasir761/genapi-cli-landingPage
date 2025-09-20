@@ -30,7 +30,7 @@ export default function ExampleOutput() {
         <pre className="bg-slate-900 p-6 font-mono text-sm text-gray-200 overflow-x-auto">
           {output.split("\n").map((line, i) => {
             // Highlight folders in cyan, files in orange
-            const folderLine = line.includes("├──") || line.includes("└──");
+            // const folderLine = line.includes("├──") || line.includes("└──");
             const isFolder = line.includes("/") && !line.includes(".js");
             return (
               <div key={i}>
